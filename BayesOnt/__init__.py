@@ -33,7 +33,7 @@ class BayesOnt:
                 eCount2 = len(subG.edges())
                 #print(total-total2-eCount)
                 #print(total2-eCount2)
-                oddsratio, pvalue = stats.fisher_exact([[eCount, total-total2-eCount], [eCount2, total2-eCount2]])
+                oddsratio, pvalue = scipy.stats.fisher_exact([[eCount, total-total2-eCount], [eCount2, total2-eCount2]])
                 eList = set([frozenset(pair) for pair in subG.edges()])
                 #print("pvalue is ")
                 #print(pvalue)
