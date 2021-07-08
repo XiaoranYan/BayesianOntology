@@ -1,12 +1,6 @@
 from setuptools import setup, find_packages
 from os.path import abspath, dirname, join
 
-import numpy as np
-import networkx as nx
-import ddot
-from ddot import Ontology
-from scipy.stats import norm, stats
-
 # Fetches the content from README.md
 # This will be used for the "long_description" field.
 README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
