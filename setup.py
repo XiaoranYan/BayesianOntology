@@ -19,7 +19,7 @@ setup(
     # eg: 1.0.0, 1.0.1, 3.0.2, 5.0-beta, etc.
     # You CANNOT upload two versions of your package with the same version number
     # This field is REQUIRED
-    version="1.0.2",
+    version="1.0.3",
 
     # The packages that constitute your project.
     # For my project, I have only one - "pydash".
@@ -51,12 +51,12 @@ setup(
     # The url field should contain a link to a git repository, the project's website
     # or the project's documentation. I'll leave a link to this project's Github repository.
     # This field is OPTIONAL
-    url="https://github.com/arnu515/pydash",
+    url="https://github.com/XiaoranYan/BayesianOntology",
 
     # The author name and email fields are self explanatory.
     # These fields are OPTIONAL
-    author_name="arnu515",
-    author_email="arnu5152@gmail.com",
+    author_name="everyxs",
+    author_email="everyxs@gmail.com",
 
     # Classifiers help categorize your project.
     # For a complete list of classifiers, visit:
